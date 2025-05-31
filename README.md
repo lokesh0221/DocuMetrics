@@ -19,7 +19,7 @@ A powerful documentation analysis tool powered by LangChain and Google's Gemini 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/lokesh0221/DocuMetrics
 cd documentation-analyzer
 ```
 
