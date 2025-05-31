@@ -1,143 +1,135 @@
-# LangChain Documentation Analyzer
+# DocuMetrics
 
-A powerful documentation analysis tool powered by LangChain and Google's Gemini AI. This tool helps improve documentation by analyzing readability, structure, completeness, and adherence to style guidelines.
+<div align="center">
 
-## Features
+![DocuMetrics Logo](https://img.shields.io/badge/DocuMetrics-AI%20Documentation%20Analysis-blue)
 
-- **Content Scraping**: Automatically extracts content from documentation pages
-- **Comprehensive Analysis**: Evaluates multiple aspects of documentation:
-  - Readability for non-technical users
-  - Document structure and organization
-  - Content completeness
-  - Style guideline adherence
-- **AI-Powered Improvements**: Generates revised versions with enhanced clarity
-- **Structured Output**: Provides analysis results in both JSON and human-readable formats
-- **Markdown Support**: Handles and generates Markdown-formatted content
-- **Interactive Web Interface**: User-friendly Streamlit interface with visualizations
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-red)](https://streamlit.io/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.1.12-green)](https://python.langchain.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-## Installation
+</div>
 
-1. Clone the repository:
+## 🚀 Overview
+
+DocuMetrics is an intelligent documentation analysis platform powered by LangChain and Google's Gemini AI. Transform your documentation quality with advanced metrics and AI-driven insights.
+
+### 🎯 Key Features
+
+- **📊 Comprehensive Analysis**
+  - Readability Assessment
+  - Structure Evaluation
+  - Completeness Check
+  - Style Guidelines Compliance
+
+- **🤖 AI-Powered Improvements**
+  - Smart Content Recommendations
+  - Auto-Generated Revisions
+  - Context-Aware Suggestions
+
+- **💻 User-Friendly Interface**
+  - Interactive Web Dashboard
+  - Real-Time Analysis
+  - One-Click Improvements
+  - Downloadable Reports
+
+## 🛠️ Installation
+
+1. **Clone the Repository**
 ```bash
 git clone <repository-url>
-cd documentation-analyzer
+cd DocuMetrics
 ```
 
-2. Create a virtual environment:
+2. **Set Up Virtual Environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install the package in development mode:
+3. **Install Dependencies**
 ```bash
 pip install -e .
 ```
 
-4. Set up environment variables:
-Create a `.env` file in the project root with:
-```
+4. **Configure Environment**
+Create a `.env` file in the project root:
+```env
 GEMINI_API_KEY=your_api_key_here
 ```
 
-## Usage
+## 🚀 Usage
 
-### Web Interface
+### 🌐 Web Interface
 
-You can run the Streamlit app in two ways:
-
-1. Using the run script (recommended):
+**Option 1: Quick Start**
 ```bash
 python run_streamlit.py
 ```
 
-2. Or directly with Streamlit:
+**Option 2: Direct Launch**
 ```bash
 streamlit run src/streamlit_app.py
 ```
 
-This will open a web interface where you can:
-1. Enter a documentation URL
-2. View analysis results with interactive visualizations
-3. Download analysis results and revised content
-4. Explore detailed feedback in an organized interface
+### 📊 Features
 
-### Command Line
+1. **Documentation Analysis**
+   - Enter your documentation URL
+   - Get instant quality metrics
+   - Review detailed feedback
 
-1. Analyze a documentation page:
-```bash
-python -m src.main https://your-documentation-url
-```
+2. **AI-Powered Improvements**
+   - Generate revised content
+   - Download improved versions
+   - Track quality metrics
 
-2. Or run interactively:
-```bash
-python -m src.main
-```
+3. **Export Options**
+   - JSON analysis reports
+   - Markdown revised content
+   - Detailed recommendations
 
-The tool will:
-1. Scrape the content from the provided URL
-2. Analyze the documentation using LangChain + Gemini
-3. Generate improvement suggestions
-4. Create a revised version
-5. Save results to the `output` directory
-
-## Output
-
-The tool generates two types of output files in the `output` directory:
-- `analysis_TIMESTAMP.json`: Detailed analysis results in JSON format
-- `revised_content_TIMESTAMP.md`: Improved version of the documentation in Markdown
-
-## Project Structure
+## 🏗️ Project Structure
 
 ```
-documentation-analyzer/
+DocuMetrics/
 ├── src/
 │   ├── __init__.py
-│   ├── main.py           # Command-line interface
+│   ├── main.py           # CLI interface
 │   ├── streamlit_app.py  # Web interface
-│   ├── analyzer.py       # Main analyzer class
-│   ├── models.py         # Pydantic models
-│   └── utils.py          # Utility functions
+│   ├── analyzer.py       # Core analyzer
+│   ├── models.py         # Data models
+│   └── utils.py          # Utilities
 ├── prompts/
-│   ├── analysis.json     # Analysis prompt template
-│   └── revision.json     # Revision prompt template
-├── output/               # Generated results
+│   ├── analysis.json     # Analysis templates
+│   └── revision.json     # Revision templates
+├── output/               # Generated content
 ├── requirements.txt      # Dependencies
-└── README.md            # This file
+└── README.md            # Documentation
 ```
 
-## Requirements
+## 🔧 Requirements
 
 - Python 3.8+
 - Google Gemini API key
-- Chrome/Chromium browser (for Selenium)
-- Streamlit for web interface
+- Chrome/Chromium browser
+- Internet connection
 
-## Features of the Web Interface
+## 🤝 Contributing
 
-1. **Interactive Analysis**
-   - Simple URL input
-   - Real-time analysis progress
-   - Visual feedback
+We welcome contributions! Feel free to:
 
-2. **Results Display**
-   - Color-coded overall score
-   - Tabbed interface for detailed analysis
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
-3. **Download Options**
-   - JSON analysis results
-   - Markdown revised content
-   - Easy export functionality
+## 📄 License
 
-4. **User-Friendly Design**
-   - Clean, modern interface
-   - Intuitive navigation
-   - Responsive layout
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+## 🌟 Acknowledgments
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+- Powered by Google's Gemini AI
+- Built with LangChain
+- Streamlit for the web interface 
