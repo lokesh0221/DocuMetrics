@@ -1,4 +1,4 @@
-# DocuMetrics
+P# DocuMetrics
 
 <div align="center">
 
@@ -38,13 +38,8 @@ DocuMetrics is an intelligent documentation analysis platform powered by LangCha
 
 1. **Clone the Repository**
 ```bash
-<<<<<<< HEAD
-git clone <repository-url>
-cd DocuMetrics
-=======
 git clone https://github.com/lokesh0221/DocuMetrics
-cd documentation-analyzer
->>>>>>> 9cade5dfefb5bc591474658c9616b63c2a21cadb
+cd DocuMetrics
 ```
 
 2. **Set Up Virtual Environment**
@@ -135,14 +130,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Acknowledgments
 
-<<<<<<< HEAD
 - Powered by Google's Gemini AI
 - Built with LangChain
 - Streamlit for the web interface 
-=======
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
->>>>>>> 9cade5dfefb5bc591474658c9616b63c2a21cadb
