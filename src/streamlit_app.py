@@ -87,7 +87,8 @@ def display_analysis_results(analysis, url):
         )
     
     # Detailed analysis for each category
-    st.subheader("Detailed Analysis")
+    st.markdown("## Task 1: Detailed Analysis")
+    st.markdown("This section provides a comprehensive analysis of your documentation across multiple dimensions.")
     tabs = st.tabs(['Readability', 'Structure', 'Completeness', 'Style Guidelines'])
     
     for tab, category in zip(tabs, ['readability', 'structure', 'completeness', 'style_guidelines']):
@@ -159,6 +160,8 @@ def main():
     
     # Show revision button only if we have analysis results
     if st.session_state.analysis_results is not None:
+        st.markdown("## Task 2: Generate Revised Content (Bonus)")
+        st.markdown("Based on the analysis, generate an improved version of your documentation.")
         if st.button("Generate Revised Content"):
             try:
                 with st.spinner("Generating revised content... This may take a few minutes."):
