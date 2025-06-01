@@ -7,6 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-red)](https://streamlit.io/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.1.12-green)](https://python.langchain.com/)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 </div>
