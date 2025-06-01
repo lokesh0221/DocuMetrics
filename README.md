@@ -40,11 +40,11 @@ DocuMetrics is an intelligent documentation analysis platform powered by LangCha
 
 #### Analysis Dashboard
 ![Analysis Dashboard](docs/images/analysis_dashboard.png)
-The analysis dashboard provides a comprehensive overview of your documentation's quality metrics, including readability scores, structural analysis, and style compliance.
+#### The analysis dashboard provides a comprehensive overview of your documentation's quality metrics, including readability scores, structural analysis, and style compliance.
 
 #### Readability Assessment
 ![Readability Metrics](docs/images/readability_metrics.png)
-Detailed breakdown of readability metrics including:
+#### Detailed breakdown of readability metrics including:
 - Reading level assessment
 - Sentence complexity analysis
 - Technical jargon detection
@@ -52,7 +52,7 @@ Detailed breakdown of readability metrics including:
 
 #### Content Analysis
 ![Content Analysis](docs/images/content_analysis.png)
-Comprehensive content evaluation showing:
+#### Comprehensive content evaluation showing:
 - Structure coherence
 - Information completeness
 - Technical accuracy
@@ -62,7 +62,7 @@ Comprehensive content evaluation showing:
 
 #### AI-Powered Revision
 ![Revision Interface](docs/images/revision_interface.png)
-The revision interface where you can:
+#### The revision interface where you can:
 - Generate improved content with one click
 - View side-by-side comparisons
 - Track changes and improvements
@@ -70,7 +70,7 @@ The revision interface where you can:
 
 #### Content Improvements
 ![Content Suggestions](docs/images/content_suggestions.png)
-AI-powered suggestions for improving your documentation:
+#### AI-powered suggestions for improving your documentation:
 - Structure recommendations
 - Style enhancements
 - Clarity improvements
@@ -78,7 +78,7 @@ AI-powered suggestions for improving your documentation:
 
 #### Export Options
 ![Export Options](docs/images/export_options.png)
-Export options available:
+#### Export options available:
 - Plain text revised content (.txt)
 - Improvement recommendations
 
