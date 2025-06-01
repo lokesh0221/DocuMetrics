@@ -178,10 +178,10 @@ def main():
                         
                         # Download revised content
                         st.download_button(
-                            label="Download Revised Content (Markdown)",
+                            label="Download Revised Content (Text)",
                             data=revised_content,
-                            file_name=f"revised_content_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
-                            mime="text/markdown"
+                            file_name=f"revised_content_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
+                            mime="text/plain"
                         )
                     
             except Exception as e:

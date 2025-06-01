@@ -33,7 +33,7 @@ def save_results(url: str, analysis: Dict[str, Any], revised_content: Optional[s
     
     # Save revised content if available
     if revised_content:
-        content_file = os.path.join(output_dir, f"revised_content_{timestamp}.md")
+        content_file = os.path.join(output_dir, f"revised_content_{timestamp}.txt")
         with open(content_file, 'w', encoding='utf-8') as f:
             f.write(revised_content)
 
